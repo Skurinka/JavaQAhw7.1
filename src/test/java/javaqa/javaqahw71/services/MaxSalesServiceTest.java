@@ -19,7 +19,7 @@ public class MaxSalesServiceTest {
     void shouldCountProperly() {
         MaxSalesService service = new MaxSalesService();
         long[] sales = {187, 365, 879, 535, 424, 965, 131, 546, 123, 687};
-        int expected = 5;
+        int expected = 6;
         int actual = service.maxSales(sales);
 
         Assertions.assertEquals(expected, actual);

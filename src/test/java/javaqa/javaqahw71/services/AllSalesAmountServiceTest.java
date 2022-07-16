@@ -21,7 +21,7 @@ public class AllSalesAmountServiceTest {
         AllSalesAmount service = new AllSalesAmount();
 
         long[] sales = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-        int expected = 11;
+        int expected = 12;
         int actual = service.salesAmount(sales);
 
         Assertions.assertEquals(expected, actual);

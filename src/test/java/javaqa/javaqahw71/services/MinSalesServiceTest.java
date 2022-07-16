@@ -22,7 +22,7 @@ public class MinSalesServiceTest {
         MinSalesService service = new MinSalesService();
 
         long[] sales = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20};
-        int expected = 2;
+        int expected = 1;
         int actual = service.minSales(sales);
 
         Assertions.assertEquals(expected, actual);

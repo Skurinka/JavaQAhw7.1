@@ -20,7 +20,7 @@ public class AverageSalesServiceTest {
         AverageSalesService service = new AverageSalesService();
 
         long[] sales = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-        int expected = 2;
+        int expected = 1;
         int actual = service.averageSales(sales);
 
         Assertions.assertEquals(expected, actual);
